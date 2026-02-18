@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tianhe Agent</title>
+  <meta name="description" content="Internal automation tool for content publishing and store operations." />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5;margin:0;background:#0b0d10;color:#e9eef5}
+    .wrap{max-width:860px;margin:0 auto;padding:40px 20px}
+    .card{background:#12161d;border:1px solid #1f2631;border-radius:14px;padding:22px;margin:18px 0}
+    a{color:#7cc4ff;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:#a7b3c5}
+    .pill{display:inline-block;padding:4px 10px;border:1px solid #2a3444;border-radius:999px;margin-right:8px;color:#cfe2ff;font-size:13px}
+    footer{margin-top:28px;padding-top:16px;border-top:1px solid #1f2631}
+    ul{margin:8px 0 0 18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Tianhe Agent</h1>
+    <p class="muted">
+      An internal automation tool used by a single business to streamline store operations and manage content publishing workflows.
+    </p>
+
+    <div class="card">
+      <div>
+        <span class="pill">Login Kit</span>
+        <span class="pill">Content Posting API</span>
+      </div>
+      <h2 style="margin:12px 0 6px">What this service does</h2>
+      <ul>
+        <li>Helps an authorized account sign in and manage publishing actions.</li>
+        <li>Uploads and publishes videos on behalf of the authorized account (when approved).</li>
+        <li>Used for internal operations only. Not a public-facing product.</li>
+      </ul>
+
+      <h2 style="margin:16px 0 6px">Contact</h2>
+      <p class="muted">
+        Email: <a href="mailto:support@tianhe-hao.com">support@tianhe-hao.com</a>
+      </p>
+    </div>
+
+    <footer class="muted">
+      <!-- TikTok review requirement: Terms/Privacy must be visible on website URL -->
+      <div>
+        <a href="/terms.html">Terms of Service</a> &nbsp;|&nbsp;
+        <a href="/privacy.html">Privacy Policy</a>
+      </div>
+      <div style="margin-top:8px">© <span id="y"></span> Tianhe Agent</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
